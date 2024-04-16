@@ -47,7 +47,7 @@ const Orders = async () => {
                         </p>
                       )}
                       <p className="text-small-medium">
-                        Unit price: <span className="text-small-bold">${orderItem.product.price}</span>
+                        Unit price: <span className="text-small-bold">₹{orderItem.product.price}</span>
                       </p>
                       <p className="text-small-medium">
                         Quantity: <span className="text-small-bold">{orderItem.quantity}</span>
