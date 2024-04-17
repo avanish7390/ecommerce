@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: "Borcelle Store",
   description: "Borcelle Ecommerce Store",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
