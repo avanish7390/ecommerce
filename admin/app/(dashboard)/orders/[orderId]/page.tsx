@@ -28,5 +28,4 @@ const OrderDetails = async ({ params }: { params: { orderId: string }}) => {
     </div>
   )
 }
-
 export default OrderDetails
